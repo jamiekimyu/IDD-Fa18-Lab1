@@ -33,7 +33,7 @@ You can no longer perceive the LED blinking at 14ms. You can prove that it is st
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
-[Link to Code]()
+[Link to Code](https://github.com/jamiekimyu/IDD-Fa18-Lab1/blob/master/blink.ino)
 
 
 ### 2. Blink your LED
