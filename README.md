@@ -40,19 +40,21 @@ You can no longer perceive the LED blinking at 14ms. You can prove that it is st
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+[Link to Video, Pin 9](https://www.youtube.com/watch?v=OGSAxZq8ARE&pbjreload=10)
 
 
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
-
+I was able to get the LED to glow the whole turning range of the potentiometer. The potentiometer aska as a resistor with tunable resistance, thus with maximum resistance the LED glow was dim but with no resistance the glow was bright. 
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
+I uploaded and ran the example 'Fade' code. All I had to do was make sure that the pin specified in the code was the pin powering the LED on the circuitboard.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
+analogWrite() lets you adjust the voltage with values between 0 - 255 while digitalWrite() only lets you toggle between HIGH and LOW values. 
 
 
 ## Part F. FRANKENLIGHT!!!
@@ -76,3 +78,4 @@ You can no longer perceive the LED blinking at 14ms. You can prove that it is st
 **Make a video showing off your Frankenlight.**
 
 **Include any schematics or photos in your lab write-up.**
+[Frankenlight](https://www.youtube.com/watch?v=gsHtOze10VQ&pbjreload=10)
