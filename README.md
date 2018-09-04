@@ -63,17 +63,21 @@ analogWrite() lets you adjust the voltage with values between 0 - 255 while digi
 
 ![Schematic](https://github.com/jamiekimyu/IDD-Fa18-Lab1/blob/master/20180903_185457.jpg)
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
-
+I took apart a calculator, which is a computer that is able to perform limited functions. Once buttons that correspond to certain numbers are pressed, the numbers are converted to binary and processed through a microprocessor that I assumed was the black, bircular area in the middle of the chip. Once the function is calculated the data is outputted through the tape or LCD ribbon to the screen.  
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+Information is conveyed from the user by the pressing of buttons on the calculator(0-9,+,-,=, etc.) which is processed into electrical signals and outputter as data through the LCD ribbon to the screen.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+The device is powered through a 3V battery that is taped to the back of the chip. 
 
 **d. Is information stored in your device? Where? How?**
+The numbers inputted by the user are converted to binary and stored in the microprocessor. The processor remembers the numbers inputted while the calculator is on. 
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
 **Describe what you did here.**
+I looked for either exposed pins or resistors as natural points to try to hijack and implant an LED. I couldn't find an exposed PIN but I could see a metal area that had 'R1' next to it. When I put the long leg of the LED against the resistor the light turned on. I could toggle the LED light on and off by pressing the ON/OFF buttons on the calculator. 
 
 ### 3. Build your light!
 
