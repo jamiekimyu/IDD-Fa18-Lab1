@@ -61,7 +61,9 @@ analogWrite() lets you adjust the voltage with values between 0 - 255 while digi
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
+![Schematic](https://github.com/jamiekimyu/IDD-Fa18-Lab1/blob/master/20180903_185457.jpg)
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
@@ -75,7 +77,4 @@ analogWrite() lets you adjust the voltage with values between 0 - 255 while digi
 
 ### 3. Build your light!
 
-**Make a video showing off your Frankenlight.**
-
-**Include any schematics or photos in your lab write-up.**
 [Frankenlight](https://www.youtube.com/watch?v=gsHtOze10VQ&pbjreload=10)
